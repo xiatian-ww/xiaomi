@@ -1,0 +1,85 @@
+.site-topbar {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+}
+
+.container {
+    width: 1226px;
+    height: 50px;
+    margin: 0 auto;
+}
+.container .top-nav {
+    height: 40px;
+}
+
+.container .top-nav ul {
+    height: 40px;
+    line-height: 40px;
+}
+
+.container .top-nav li {
+    float: left;
+}
+
+.container .top-nav li a {
+    padding: 0 5px;
+    border-right: 1px solid #aaa;
+    color: #aaa;
+}
+
+.container .top-nav li a:hover {
+    color: #eee;
+}
+
+.container .top-nav .download {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.container .top-nav .download:hover .app-box {
+   display: block;
+}
+
+.app-box {
+    display: none;
+    position: absolute;
+    left: -40px;
+    top: 28px;
+    width: 124px;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    box-shadow: 5px 5px 5px #eee;
+}
+
+.app-box i {
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    top: -20px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+}
+
+.app-box span {
+    display: block;
+    height: 20px;
+    font-size: 14px;
+    color: #333;
+    margin:0px 0 20px 0;
+    /* padding: 8px 0; */
+}
+
+.app-box img {
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+}
